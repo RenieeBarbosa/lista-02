@@ -32,7 +32,7 @@ class Array(ABC):
         Deve lançar IndexError se o índice for inválido.
         """
         raise NotImplementedError
-
+    
     @abstractmethod
     def remove(self, value: int) -> None:
         """
